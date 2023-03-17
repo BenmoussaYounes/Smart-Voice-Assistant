@@ -1,0 +1,19 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hey","hello","HI"],
+      "responses": [""]
+    },
+    {
+       "tag": "create_note",
+      "patterns": ["Please create a note","add note"],
+      "responses": [""]
+    },
+      {
+       "tag": "exit",
+      "patterns": ["By","exit","stop"],
+      "responses": [""]
+    }
+  ]
+}
