@@ -3,11 +3,21 @@
     {
       "tag": "greeting",
       "patterns": ["hey","hello","HI"],
-      "responses": [""]
+      "responses": ["Hello how can i help you ","hello sir","hello younes what up"]
     },
     {
        "tag": "create_note",
       "patterns": ["Please create a note","add note"],
+      "responses": ["YES YOUNES"]
+    },
+    {
+      "tag":"add_todo",
+      "patterns": ["i want to add to do ","Add to do to do note","add new to do note "],
+      "responses": [""]
+    },
+    {
+      "tag":"show_todos",
+      "patterns": ["Show my todos ","what are my todos","What is on my todos "],
       "responses": [""]
     },
       {
