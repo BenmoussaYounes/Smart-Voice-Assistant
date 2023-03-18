@@ -8,7 +8,7 @@
     {
        "tag": "create_note",
       "patterns": ["Please create a note","add note"],
-      "responses": ["YES YOUNES"]
+      "responses": [""]
     },
     {
       "tag":"add_todo",

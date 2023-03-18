@@ -81,7 +81,7 @@ def add_todo():
            speaker.runAndWait()
 
 
-todolist = ["Clean the room","study for school","go shooping"]
+todolist = ["Clean the room", "study for school", "go shooping"]
 def show_todos():
     speaker.say("The item on your list are ")
     for item in todolist:
@@ -100,10 +100,10 @@ def exit():
 
 
 mapping = {
+    "greeting": hello(),
     "create_note": create_note(),
-    "add_todo": add_todo(),
     "exit": exit(),
     "show_todos": show_todos(),
-    "greeting": hello(),
+    "add_todo": add_todo(),
 }
 
